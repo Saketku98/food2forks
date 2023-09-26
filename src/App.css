@@ -10,7 +10,6 @@
 
 
 #Nav h5{
-  font-family: 'Caveat', cursive;
   font-size: 30px;
 }
 
@@ -32,7 +31,6 @@
 }
 
 #amz{
-  font-family: 'Caveat', cursive;
   color:aliceblue;
  
 }
@@ -98,12 +96,10 @@
   height: fit-content;
  }
  #provide{
-  font-family: 'Caveat', cursive;
   color: rgb(237, 180, 36);
  }
  
  #ing{
-  font-family: 'Caveat', cursive;
   font-size: 20px;
   border: 2px solid black;
   padding: 5px;
