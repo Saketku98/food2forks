@@ -1,0 +1,110 @@
+#Nav{
+  display: flex;
+  align-items: center;
+  padding:8px ;
+  box-shadow: 0px 0px 6px black;
+  position:relative;
+
+
+}
+
+
+#Nav h5{
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+
+#Nav-Items{
+  display:flex;
+  margin-left: 40px;
+  
+}
+#Home{
+  margin-right:20px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+#Home h6{
+  font-size:16px;
+
+}
+
+#amz{
+  font-family: 'Caveat', cursive;
+  color:aliceblue;
+ 
+}
+
+#Home-Background{
+  background-image:url("https://hips.hearstapps.com/hmg-prod/images/easy-dinner-recipes-pizza-casserole-1676054902.jpeg?crop=0.801xw:1.00xh;0.150xw,0&resize=980:*");
+  opacity: 0.85;
+  color: aliceblue;
+  text-align: center;
+  height:95vh;
+
+}
+
+#Home-Background h1{
+  font-size: 60px;
+  padding-top: 160px;
+  
+}
+
+#Home-Background button{
+  margin-top: 30px;
+  font-size: 20px;
+  color: antiquewhite;
+  font-weight: 600;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #0072b1;
+
+}
+
+#recipes{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#recipes h3,h2{
+  font-size: 40px;
+}
+
+#recipes p{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+#search-box input::placeholder{
+  color:rgb(159, 148, 148);
+  opacity: 0.6;
+}
+ #card{
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ padding: 10px;
+ justify-content: space-evenly;
+ text-align: start;
+ 
+ }
+ #detail-img{
+  width:200px;
+  height: 400px;
+  height: fit-content;
+ }
+ #provide{
+  font-family: 'Caveat', cursive;
+  color: rgb(237, 180, 36);
+ }
+ 
+ #ing{
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 5px;
+ }
